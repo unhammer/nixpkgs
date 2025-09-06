@@ -19519,8 +19519,8 @@ self: {
     }:
     mkDerivation {
       pname = "HPDF";
-      version = "1.7";
-      sha256 = "0f5p36i6y20g9mqmsc3gja9jswffi0ydfmdmm4swrahl24h319jr";
+      version = "1.8";
+      sha256 = "53c4fd22f5c4db91f17a2ae10611b8668ab2124076f27ecab8fece56d42b265a";
       isLibrary = true;
       isExecutable = true;
       libraryHaskellDepends = [

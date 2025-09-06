@@ -1224,7 +1224,7 @@ default-package-overrides:
   - hpack ==0.37.0
   - hpc-codecov ==0.6.2.0
   - hpc-lcov ==1.1.2
-  - HPDF ==1.7
+  - HPDF ==1.8
   - hpp ==0.6.5
   - hpqtypes ==1.12.0.0
   - hpqtypes-extras ==1.16.4.4
