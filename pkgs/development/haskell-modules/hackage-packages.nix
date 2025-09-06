@@ -731406,11 +731406,18 @@ self: {
       filepath,
       groom,
       hexpat,
+      indexed-traversable,
       lens,
+      microlens,
+      microlens-ghc,
+      microlens-mtl,
+      microlens-platform,
+      microlens-th,
       monad-control,
       mtl,
       network-uri,
       old-locale,
+      profunctors,
       raw-strings-qq,
       safe,
       smallcheck,
@@ -731434,6 +731441,7 @@ self: {
       pname = "xlsx";
       version = "1.1.4";
       sha256 = "11n6zc5wsk491fqzyn7davml84clbpnhvdw2gwsz4vq86fy69g0s";
+      configureFlags = [ "-fmicrolens" ];
       libraryHaskellDepends = [
         attoparsec
         base
@@ -731450,11 +731458,16 @@ self: {
         extra
         filepath
         hexpat
-        lens
+        indexed-traversable
+        microlens
+        microlens-mtl
+        microlens-platform
+        microlens-th
         monad-control
         mtl
         network-uri
         old-locale
+        profunctors
         safe
         text
         time
@@ -731479,7 +731492,10 @@ self: {
         directory
         filepath
         groom
-        lens
+        microlens
+        microlens-mtl
+        microlens-platform
+        microlens-th
         mtl
         raw-strings-qq
         smallcheck
@@ -750598,3 +750614,4 @@ self: {
       };
 
 }
+     
